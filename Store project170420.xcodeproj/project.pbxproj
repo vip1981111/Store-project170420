@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A85F37FC244A259600E43061 /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A85F37FB244A259600E43061 /* Auth.storyboard */; };
+		A8B60620244B369C00C0AC72 /* viewControllerAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B6061F244B369C00C0AC72 /* viewControllerAuth.swift */; };
 		A8C304772449ED9A00F104EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C304762449ED9A00F104EA /* AppDelegate.swift */; };
 		A8C304792449ED9A00F104EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C304782449ED9A00F104EA /* SceneDelegate.swift */; };
 		A8C3047B2449ED9A00F104EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C3047A2449ED9A00F104EA /* ViewController.swift */; };
@@ -17,7 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A8C304732449ED9A00F104EA /* Store project170420.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Store project170420.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A85F37FB244A259600E43061 /* Auth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
+		A8B6061F244B369C00C0AC72 /* viewControllerAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewControllerAuth.swift; sourceTree = "<group>"; };
+		A8C304732449ED9A00F104EA /* Smart Store1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart Store1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8C304762449ED9A00F104EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8C304782449ED9A00F104EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A8C3047A2449ED9A00F104EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,7 +54,7 @@
 		A8C304742449ED9A00F104EA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A8C304732449ED9A00F104EA /* Store project170420.app */,
+				A8C304732449ED9A00F104EA /* Smart Store1.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,6 +65,8 @@
 				A8C304762449ED9A00F104EA /* AppDelegate.swift */,
 				A8C304782449ED9A00F104EA /* SceneDelegate.swift */,
 				A8C3047A2449ED9A00F104EA /* ViewController.swift */,
+				A8B6061F244B369C00C0AC72 /* viewControllerAuth.swift */,
+				A85F37FB244A259600E43061 /* Auth.storyboard */,
 				A8C3047C2449ED9A00F104EA /* Main.storyboard */,
 				A8C304822449ED9C00F104EA /* Assets.xcassets */,
 				A8C304842449ED9C00F104EA /* LaunchScreen.storyboard */,
@@ -87,7 +93,7 @@
 			);
 			name = "Store project170420";
 			productName = "Store project170420";
-			productReference = A8C304732449ED9A00F104EA /* Store project170420.app */;
+			productReference = A8C304732449ED9A00F104EA /* Smart Store1.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -128,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A85F37FC244A259600E43061 /* Auth.storyboard in Resources */,
 				A8C304862449ED9C00F104EA /* LaunchScreen.storyboard in Resources */,
 				A8C304832449ED9C00F104EA /* Assets.xcassets in Resources */,
 				A8C3047E2449ED9A00F104EA /* Main.storyboard in Resources */,
@@ -141,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8B60620244B369C00C0AC72 /* viewControllerAuth.swift in Sources */,
 				A8C3047B2449ED9A00F104EA /* ViewController.swift in Sources */,
 				A8C304772449ED9A00F104EA /* AppDelegate.swift in Sources */,
 				A8C304812449ED9A00F104EA /* Store_project170420.xcdatamodeld in Sources */,
@@ -296,9 +304,9 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mohammed.Store-project170420";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Smart Store1";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -314,9 +322,9 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mohammed.Store-project170420";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Smart Store1";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

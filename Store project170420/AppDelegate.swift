@@ -79,4 +79,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 }
+//https://stackoverflow.com/questions/26076054/changing-placeholder-text-color-with-swift رابط كود تغيير اللون  اللي بالاسفل
 
+extension UITextField{
+   @IBInspectable var placeHolderColor: UIColor? {
+        get {
+            return self.placeHolderColor
+        }
+        set {
+            self.attributedPlaceholder = NSAttributedString(string:self.placeholder != nil ? self.placeholder! : "", attributes:[NSAttributedString.Key.foregroundColor: newValue!])
+        }
+    }
+}
